@@ -91,7 +91,8 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ALLOWED_HOSTS = ['kopkopbucket.s3-website.eu-north-1.amazonaws.com']
+ALLOWED_HOSTS = ['kopkopbucket.s3-website.eu-north-1.amazonaws.com', '127.0.0.1']
+
 
 
 # Настройки для обработки медиа-файлов, включая изображения
