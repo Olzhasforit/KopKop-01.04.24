@@ -94,7 +94,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 USE_X_FORWARDED_HOST = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-ALLOWED_HOSTS = ['51.20.138.197', 'http://kopkopbucket.s3-website.eu-north-1.amazonaws.com']
+ALLOWED_HOSTS = ['51.20.138.197', 'localhost', '127.0.0.1']
+
 
 
 
