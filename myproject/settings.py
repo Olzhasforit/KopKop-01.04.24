@@ -101,7 +101,9 @@ MEDIA_URL = '/media/'  # URL-адрес для доступа к загруже�
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
+    "http://kopkopbucket.s3-website.eu-north-1.amazonaws.com"
 ]
+
 
 
 
